@@ -10,9 +10,10 @@ public class FailState : MonoBehaviour
         {
             print("YOU LOSE");
 
-            other.transform.position = new Vector3( 0, 0, 14);
+            other.transform.position = new Vector3( 0, 0, 0);
             other.GetComponent<Rigidbody>().velocity = Vector3.zero; //(0,0,0)
-
+            other.transform.parent = null;
         }
+
     }
 }
