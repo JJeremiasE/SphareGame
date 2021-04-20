@@ -56,6 +56,7 @@ Shader "Unlit/ToonShader"
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.worldNormal = UnityObjectToWorldNormal(v.normal);
+
                 return o;
             }
 
@@ -68,5 +69,6 @@ Shader "Unlit/ToonShader"
             }
             ENDCG
         }
+             UsePass "Legacy Shaders/VertexLit/SHADOWCASTER"
     }
 }

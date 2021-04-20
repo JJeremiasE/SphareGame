@@ -26,7 +26,7 @@ Material:
     m_Floats:
     - _Brightness: 1
     - _Detail: 0.48
-    - _Strenght: 0.75
+    - _Strenght: 0.81
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
